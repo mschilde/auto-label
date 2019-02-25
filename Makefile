@@ -1,8 +1,7 @@
 #!make
 
 DOCKER_IMAGE_NAME:=autolabel-dev
-WORK_DIR:=$(CURDIR)
-ROOT_DIR:=$(WORK_DIR)/
+ROOT_DIR:=$(CURDIR)/
 
 build:
 	docker build -f Dockerfile-develop --tag $(DOCKER_IMAGE_NAME) $(ROOT_DIR)
