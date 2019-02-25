@@ -30,6 +30,15 @@ export const getPullRequestAndLabels = (
           }
         }
       }
+      pullRequest(last: 100) {
+        edges {
+          node {
+            id
+            number
+            mergeable
+          }
+        }
+      }
       labels(first: 100) {
         edges {
           node {
