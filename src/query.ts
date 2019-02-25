@@ -30,7 +30,7 @@ export const getPullRequestAndLabels = (
           }
         }
       }
-      pullRequest(last: 100) {
+      pullRequests(last: 100) {
         edges {
           node {
             id
