@@ -47,6 +47,10 @@ Pattern matching is following `.gitignore` [spec](https://git-scm.com/docs/gitig
 
 * Handle pagination of label (currently only handles 100)
 
+### Local setup
+
+If you have `Docker` and `make` installed just run `make build` and `make develop`.
+
 ## License
 
 MIT
